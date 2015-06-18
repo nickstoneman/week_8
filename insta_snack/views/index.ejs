@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Insta Snack</title>
+  <script src="/app.js"></script>
+</head>
+<body>
+  hello world
+</body>
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript">
+    alert("Hi");
+    var socket = io();
+
+    socket.on('connect', function() {
+      console.log('Connected!');
+  });
+  </script>
+
+
+</html>
